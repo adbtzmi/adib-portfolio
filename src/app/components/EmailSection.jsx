@@ -31,7 +31,7 @@ const EmailSection = () => {
         </div>
       </div>
       <div>
-        <p className="text-white">This is a dummy section.</p>
+        <p className="text-white"></p>
       </div>
     </section>
   );
