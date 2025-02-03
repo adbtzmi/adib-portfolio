@@ -23,8 +23,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>International Islamic University of Malaysia (IIUM)</li>
       </ul>
     ),
   },
@@ -33,8 +32,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Responsive Web Design</li>
+        <li>CCNA: Introduction to Networks</li>
       </ul>
     ),
   },
@@ -68,6 +67,7 @@ const AboutSection = () => {
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
+              className="mr-4"
             >
               {" "}
               Skills{" "}
