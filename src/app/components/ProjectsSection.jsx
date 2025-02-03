@@ -23,6 +23,15 @@ const projectsData = [
     gitUrl: "https://github.com/adbtzmi/OSProject",
     previewUrl: "https://github.com/adbtzmi/OSProject",
   },
+  {
+    id: 3,
+    title: "Mahallah Bilal Webiste",
+    description: "Create a website for Mahallah Bilal",
+    image: "/",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/adbtzmi/Mahallah-Bilal",
+    previewUrl: "https://github.com/adbtzmi/Mahallah-Bilal",
+  },
 ];
 
 const ProjectsSection = () => {
