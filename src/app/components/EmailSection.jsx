@@ -6,9 +6,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 const EmailSection = () => {
-  const [emailSubmitted, setEmailSubmitted] = useState(false);
-
-
   return (
     <section
       id="contact"
@@ -39,7 +36,7 @@ const EmailSection = () => {
             Email sent successfully!
           </p>
         ) : (
-          <form className="flex flex-col" onSubmit={handleSubmit}>
+          <form className="flex flex-col">
             <div className="mb-6">
               <label
                 htmlFor="email"
