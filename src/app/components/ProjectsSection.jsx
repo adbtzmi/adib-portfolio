@@ -7,12 +7,12 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "Youtube Clone Page",
+    description: "Make a youtube clone page using HTML, CSS, and JS",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "/https://github.com/adbtzmi/clone-youtube",
+    previewUrl: "/https://github.com/adbtzmi/clone-youtube",
   },
   {
     id: 2,
