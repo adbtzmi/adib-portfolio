@@ -16,12 +16,12 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Operating System Project",
+    description: "Running Containers for Application Development",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/adbtzmi/OSProject",
+    previewUrl: "https://github.com/adbtzmi/OSProject",
   },
   {
     id: 3,
