@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          I'm an IT student at IIUM specializing in Business Intelligence. Passionate about mobile and web development, with a strong interest in data analytics and business innovation. Aspiring Data Analyst eager to leverage technology for impactful solutions.
+          I&apos;m an IT student at IIUM specializing in Business Intelligence. Passionate about mobile and web development, with a strong interest in data analytics and business innovation. Aspiring Data Analyst eager to leverage technology for impactful solutions.
           </p>
           <div>
             <Link
