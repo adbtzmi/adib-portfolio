@@ -1,6 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
+import { Analytics } from '@vercel/analytics/next';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         {/* <link rel="icon" href="/favicon.svg" type="image/svg+xml" /> */}
       </Head>
       <body className={inter.className}>{children}</body>
+      <Analytics />
     </html>
   )
 }
