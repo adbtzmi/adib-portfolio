@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
+import EmailIcon from "../../../public/email-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -27,6 +28,9 @@ const EmailSection = () => {
           </Link>
           <Link href="https://linkedin.com/in/adbtzmi">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
+          </Link>
+          <Link href="mailto:adibtazmi2003@gmail.com">
+            <Image src={EmailIcon} alt="Email Icon" priority />
           </Link>
         </div>
       </div>
