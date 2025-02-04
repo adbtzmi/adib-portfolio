@@ -13,13 +13,13 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
+          className="col-span-8 place-self-center text-center sm:text-left justify-self-start mr-4"
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-custom3 to-custom5">
-              Hello, Im{" "}
+              Hello, I'm{" "}
             </span>
-            <br></br>
+            <br />
             <TypeAnimation
               sequence={[
                 "Adib",
@@ -39,7 +39,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Im an IT student at IIUM specializing in Business Intelligence. Passionate about mobile and web development, with a strong interest in data analytics and business innovation. Aspiring Data Analyst eager to leverage technology for impactful solutions.
+            I'm an IT student at IIUM specializing in Business Intelligence. Passionate about mobile and web development, with a strong interest in data analytics and business innovation. Aspiring Data Analyst eager to leverage technology for impactful solutions.
           </p>
           <div>
             <Link
