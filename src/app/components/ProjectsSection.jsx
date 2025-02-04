@@ -9,7 +9,7 @@ const projectsData = [
     id: 1,
     title: "Youtube Clone Page",
     description: "Make a youtube clone page using HTML, CSS, and JS",
-    image: "/public/images/projects/1.png",
+    image: "/images/projects/2.4.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/adbtzmi/clone-youtube",
     previewUrl: "https://adbtzmi.github.io/clone-youtube/youtube",
