@@ -7,59 +7,88 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "i-Falah Finance Management App",
+    description:
+      "Final Year Project — Personal finance app with real-time tracking, Firebase dashboards, Google Gemini AI insights, and a Laravel admin dashboard.",
+    image: "/images/projects/1.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/adbtzmi",
+    previewUrl: "/",
+  },
+  {
+    id: 2,
+    title: "EV Trends in Malaysia — Data Visualization",
+    description:
+      "Cleaned and analyzed EV sales and charging station data, then created interactive Tableau dashboards to visualize trends and infrastructure distribution.",
+    image: "/images/projects/3.png",
+    tag: ["All", "Data"],
+    gitUrl: "https://github.com/adbtzmi",
+    previewUrl: "/",
+  },
+  {
+    id: 3,
+    title: "NYC Collision Data Warehouse",
+    description:
+      "Built a data warehouse using NYC collision datasets with Star Schema design, ETL pipelines via SSIS, integrating 3 years of data for trend analysis.",
+    image: "/images/projects/4.png",
+    tag: ["All", "Data"],
+    gitUrl: "https://github.com/adbtzmi",
+    previewUrl: "/",
+  },
+  {
+    id: 4,
+    title: "ClubUnity Website",
+    description: "Club management system built with Laravel for managing club activities and members.",
+    image: "/images/projects/2.6.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/adbtzmi/ClubUnity.git",
+    previewUrl: "https://adbtzmi.github.io/ClubUnity/",
+  },
+  {
+    id: 5,
+    title: "Adib's Portfolio",
+    description: "Personal portfolio website built with Next.js and Tailwind CSS.",
+    image: "/images/projects/2.5.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/adbtzmi/adib-portfolio.git",
+    previewUrl: "https://adbtzmi.vercel.app/",
+  },
+  {
+    id: 6,
     title: "Youtube Clone Page",
-    description: "Make a youtube clone page using HTML, CSS, and JS",
+    description: "A YouTube clone page built using HTML, CSS, and JavaScript.",
     image: "/images/projects/2.4.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/adbtzmi/clone-youtube",
     previewUrl: "https://adbtzmi.github.io/clone-youtube/youtube",
   },
   {
-    id: 2,
-    title: "Operating System Project",
-    description: "Running Containers for Application Development",
-    image: "/images/projects/2.3.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/adbtzmi/OSProject",
-    previewUrl: "https://github.com/adbtzmi/OSProject",
-  },
-  {
-    id: 3,
-    title: "Mahallah Bilal Webiste",
-    description: "Create a static website for Mahallah Bilal",
+    id: 7,
+    title: "Mahallah Bilal Website",
+    description: "Static website created for Mahallah Bilal using HTML and CSS.",
     image: "/images/projects/2.1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/adbtzmi/Mahallah-Bilal",
     previewUrl: "https://adbtzmi.github.io/Mahallah-Bilal/home.html",
   },
   {
-    id: 4,
+    id: 8,
     title: "RM 1 Campaign Website",
-    description: "Create a static website for RM 1 Campaign",
+    description: "Static campaign website built with HTML and CSS.",
     image: "/images/projects/2.2.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/adbtzmi/Individual-Assignment-1.git", 
+    gitUrl: "https://github.com/adbtzmi/Individual-Assignment-1.git",
     previewUrl: "https://adbtzmi.github.io/Individual-Assignment-1/",
-  },     
-  {
-    id: 5,
-    title: "Adib's Portfolio",
-    description: "Create my portfolio using Next.js",
-    image: "/images/projects/2.5.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/adbtzmi/adib-portfolio.git",  
-    previewUrl: "https://adbtzmi.vercel.app/",
   },
   {
-    id: 6,
-    title: "ClubUnity Website",
-    description: "Create club management system using laravel",
-    image: "/images/projects/2.6.png",
+    id: 9,
+    title: "Operating System Project",
+    description: "Running Containers for Application Development using Docker.",
+    image: "/images/projects/2.3.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/adbtzmi/ClubUnity.git",
-    previewUrl: "https://adbtzmi.github.io/ClubUnity/",
+    gitUrl: "https://github.com/adbtzmi/OSProject",
+    previewUrl: "https://github.com/adbtzmi/OSProject",
   },
-    
 ];
 
 const ProjectsSection = () => {
@@ -100,6 +129,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Mobile"
           isSelected={tag === "Mobile"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Data"
+          isSelected={tag === "Data"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

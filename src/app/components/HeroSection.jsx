@@ -17,20 +17,20 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-custom3 to-custom5">
-              Hello, Im{" "}
+              Hello, I am{" "}
             </span>
             <br />
             <TypeAnimation
               sequence={[
                 "Adib",
                 1000,
-                "IIUM Student",
+                "TSE SSD Intern",
+                1000,
+                "Data Enthusiast",
                 1000,
                 "Web Developer",
                 1000,
                 "Graphic Designer",
-                1000,
-                "Data Analyst",
                 1000,
               ]}
               wrapper="span"
@@ -39,7 +39,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Im an IT student at IIUM specializing in Business Intelligence. Passionate about mobile and web development, with a strong interest in data analytics and business innovation. Aspiring Data Analyst eager to leverage technology for impactful solutions.
+            Final-year Bachelor of Information Technology graduate from IIUM, specializing in Business Intelligence and Information Science. Skilled in React Native, Laravel, and data visualization with Tableau and Power BI. Currently an intern eager to apply data-driven solutions in real industry settings.
           </p>
           <div>
             <Link
